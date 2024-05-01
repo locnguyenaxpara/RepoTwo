@@ -1,0 +1,38 @@
+{
+  "configurations" : [
+    {
+      "id" : "8DA20F5E-93D5-4021-834C-588E6ECBB647",
+      "name" : "Test Scheme Action",
+      "options" : {
+
+      }
+    }
+  ],
+  "defaultOptions" : {
+    "environmentVariableEntries" : [
+      {
+        "key" : "IMAGE_DIFF_DIR",
+        "value" : "$(SOURCE_ROOT)\/$(PROJECT_NAME)Tests\/FailedSnapshotImages"
+      },
+      {
+        "key" : "FB_REFERENCE_IMAGE_DIR",
+        "value" : "$(SOURCE_ROOT)\/$(PROJECT_NAME)Tests\/ReferenceImages"
+      }
+    ],
+    "targetForVariableExpansion" : {
+      "containerPath" : "container:SimpleApp.xcodeproj",
+      "identifier" : "4CA3A1BC2A55C613001EB9A6",
+      "name" : "SimpleApp"
+    }
+  },
+  "testTargets" : [
+    {
+      "target" : {
+        "containerPath" : "container:SimpleApp.xcodeproj",
+        "identifier" : "4C5DDC462BBA4EBE00FAFFA8",
+        "name" : "SimpleAppTests"
+      }
+    }
+  ],
+  "version" : 1
+}

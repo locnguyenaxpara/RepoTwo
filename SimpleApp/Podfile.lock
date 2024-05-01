@@ -1,0 +1,30 @@
+PODS:
+  - iOSSnapshotTestCase (8.0.0):
+    - iOSSnapshotTestCase/SwiftSupport (= 8.0.0)
+  - iOSSnapshotTestCase/Core (8.0.0)
+  - iOSSnapshotTestCase/SwiftSupport (8.0.0):
+    - iOSSnapshotTestCase/Core
+  - Realm (10.44.0):
+    - Realm/Headers (= 10.44.0)
+  - Realm/Headers (10.44.0)
+  - RealmSwift (10.44.0):
+    - Realm (= 10.44.0)
+
+DEPENDENCIES:
+  - iOSSnapshotTestCase
+  - RealmSwift (= 10.44.0)
+
+SPEC REPOS:
+  trunk:
+    - iOSSnapshotTestCase
+    - Realm
+    - RealmSwift
+
+SPEC CHECKSUMS:
+  iOSSnapshotTestCase: a670511f9ee3829c2b9c23e6e68f315fd7b6790f
+  Realm: 0419a32457873acb720df25bf1d658df36967cf2
+  RealmSwift: 352f85c018b4d0efe961974bfa95bf7a30e079f6
+
+PODFILE CHECKSUM: cfdb46716098ba16ae5f510f1f21e2864f0c5b07
+
+COCOAPODS: 1.14.3
